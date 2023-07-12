@@ -168,18 +168,18 @@ def cartclick():
 # ~ Search functionality ~
 
 
-def search():
-    query = str(searchbar.get())
-    for i in productsobj:
-        if query == str(i):
-            i.searchresult()
+# def search():
+#     query = str(searchbar.get())
+#     for i in productsobj:
+#         if query == str(i):
+#             i.searchresult()
 
 
 # ---  widget definitions ---
 headerframe = Frame(mainwindow, bg="grey20").place(x=0, y=0)
 searchbar = Entry(headerframe, font=("Arial",18), width=30, bg="#03DAC5")
 searchbar.place(x=170, y=17)
-searchbutton = Button(headerframe, borderwidth=0, bg="#4D4C4C", image=searchicon, activeb=headercolor, command=search).place(x=580, y=12)
+searchbutton = Button(headerframe, borderwidth=0, bg="#4D4C4C", image=searchicon, activeb=headercolor).place(x=580, y=12)
 cartlabel = Label(headerframe, image=cartfont, bg="#4D4C4C").place(x=950, y=12)
 cartbutton = Button(headerframe, borderwidth=0, bg="#4D4C4C", image=carticon, activeb=headercolor, command=cartclick).place(x=1095, y=12)
 userlabel = Label(headerframe, image=userfont, bg="#4D4C4C").place(x=1200, y=12)
@@ -206,24 +206,24 @@ dettolimg = PhotoImage(file="Images\\dettol.png")
 constimg = PhotoImage(file="Images\\const.png")
 enoimg = PhotoImage(file="Images\\eno.png")
 
-acteoneimg = PhotoImage(file="Images\\chemicals\\acetone.png")
-ammoniumchlorideimg = PhotoImage(file="Images\\chemicals\\ammonium chloride.png")
-citricacidimg = PhotoImage(file="Images\\chemicals\\citric acid.png")
-cupricsulphateimg = PhotoImage(file="Images\\chemicals\\cupric sulphate.png")
-ethyllabsolimg = PhotoImage(file="Images\\chemicals\\ethyl labsol.png")
-potassiumchromateimg = PhotoImage(file="Images\\chemicals\\potassium chromate.png")
-galliumimg = PhotoImage(file="Images\\chemicals\\gallium.png")
-indiumimg = PhotoImage(file="Images\\chemicals\\indium.png")
-mercuryimg = PhotoImage(file="Images\\chemicals\\mercury.png")
-tinimg = PhotoImage(file="Images\\chemicals\\tin.png")
-titaniumimg = PhotoImage(file="Images\\chemicals\\titanium.png")
-nickelimg = PhotoImage(file="Images\\chemicals\\nickel.png")
-hclimg = PhotoImage(file="Images\\chemicals\\hcl.png")
-isopropylalcoholimg = PhotoImage(file="Images\\chemicals\\isopropyl alcohol.png")
-leadphosphateimg = PhotoImage(file="Images\\chemicals\\lead phosphate.png")
-potasiumnitrateimg = PhotoImage(file="Images\\chemicals\\potassium nitrate.png")
-potassiumpermanganateimg = PhotoImage(file="Images\\chemicals\\potassium permanganate.png")
-calciumchlorideimg = PhotoImage(file="Images\\chemicals\\calcium chloride.png")
+acteoneimg = PhotoImage(file="Images\\acetone.png")
+ammoniumchlorideimg = PhotoImage(file="Images\\ammonium chloride.png")
+citricacidimg = PhotoImage(file="Images\\citric acid.png")
+cupricsulphateimg = PhotoImage(file="Images\\cupric sulphate.png")
+ethyllabsolimg = PhotoImage(file="Images\\ethyl labsol.png")
+potassiumchromateimg = PhotoImage(file="Images\\potassium chromate.png")
+galliumimg = PhotoImage(file="Images\\gallium.png")
+indiumimg = PhotoImage(file="Images\\indium.png")
+mercuryimg = PhotoImage(file="Images\\mercury.png")
+tinimg = PhotoImage(file="Images\\tin.png")
+titaniumimg = PhotoImage(file="Images\\titanium.png")
+nickelimg = PhotoImage(file="Images\\nickel.png")
+hclimg = PhotoImage(file="Images\\hcl.png")
+isopropylalcoholimg = PhotoImage(file="Images\\isopropyl alcohol.png")
+leadphosphateimg = PhotoImage(file="Images\\lead phosphate.png")
+potasiumnitrateimg = PhotoImage(file="Images\\potassium nitrate.png")
+potassiumpermanganateimg = PhotoImage(file="Images\\potassium permanganate.png")
+calciumchlorideimg = PhotoImage(file="Images\\calcium chloride.png")
 
 hometitleimg = PhotoImage(file="Images\\hometitle.png")
 homeparaimg = PhotoImage(file="Images\\homepara.png")
