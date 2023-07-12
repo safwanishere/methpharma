@@ -9,9 +9,4 @@ database so when a user logs in with the same info, he is able to continue using
 
 The sole developer of this project is me, @safwanishere
 
-If the reader wills to use this for his CBSE class 12 project or any other purpose, he should first contact me for 
-permissions.
-
-contact : 
-discord - safwan#6176 or safwan#1000
-email - mohammedsafwan261205@gmail.com
+Feel free to use it without any credit.
